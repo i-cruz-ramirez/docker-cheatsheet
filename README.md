@@ -1,7 +1,7 @@
 # docker-cheatsheet
 Simple Docker Cheatsheet
 
-### list containers
+### List containers
 ```sh
 docker ps
 ```
@@ -16,22 +16,22 @@ docker images ps
 docker exec -it id bash
 ```
 
-### stop all containers
+### Stop all containers
 ```sh
 docker stop $(docker ps -a -q)
 ```
 
-### remove all containers
+### Remove all containers
 ```sh
 docker rm $(docker ps -a -q)
 ```
 
-### remove images
+### Remove images
 ```sh
 docker rmi $(docker images -q)
 ```
 
-### clean up images, containers, volumes, and networks that are not associated with a container:
+### Clean up images, containers, volumes, and networks that are not associated with a container:
 ```sh
 docker system prune
 ```
