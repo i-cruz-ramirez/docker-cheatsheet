@@ -1,5 +1,4 @@
-# docker-cheatsheet
-Simple Docker Cheatsheet
+# Docker cheatsheet
 
 ### List containers
 ```sh
@@ -51,3 +50,13 @@ docker network ls
 docker network create -d bridge mynet
 ```
 
+# Docker compose cheatsheet
+
+```sh
+docker-compose build --no-cache
+```
+### To re-build the images since requirements are installed at build time rather than run time
+```sh
+docker-compose up -d --build
+```
+### Remove images
