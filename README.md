@@ -52,7 +52,7 @@ docker network create -d bridge mynet
 
 # Docker compose cheatsheet
 
-### Up project
+### To rebuild image and up container
 ```sh
 docker-compose up -d
 ```
