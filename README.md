@@ -52,6 +52,12 @@ docker network create -d bridge mynet
 
 # Docker compose cheatsheet
 
+### Up project
+```sh
+docker-compose up -d
+```
+
+### Build project (no-chache)
 ```sh
 docker-compose build --no-cache
 ```
