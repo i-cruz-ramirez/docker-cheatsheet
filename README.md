@@ -61,8 +61,13 @@ docker-compose up -d
 ```sh
 docker-compose build --no-cache
 ```
-### To re-build the images since requirements are installed at build time rather than run time
+
+### To re-build the images
 ```sh
 docker-compose up -d --build
 ```
-### Remove images
+
+### Remove images (Stops containers and removes containers, networks, volumes, and images created by up)
+```sh
+docker-compose down
+```
