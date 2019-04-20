@@ -57,6 +57,11 @@ docker network create -d bridge mynet
 docker-compose up -d
 ```
 
+### If you want to specify a Compose file
+```sh
+docker-compose -f FILE build
+```
+
 ### Build project (no-chache)
 ```sh
 docker-compose build --no-cache
